@@ -1,189 +1,184 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Austin Powell Hutton
+  label: "Computational Neuroscience :: Data Analytics :: Statistical Modeling"
+  email: ahutton@ucsd.edu
+  location: La Jolla, CA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Incoming Ph.D. student in Cognitive Science at UC San Diego, working at the
+    intersection of computational neuroscience, signal processing, and
+    statistical modeling. My research investigates developmental dynamics of
+    neural networks using human induced pluripotent stem cell (hiPSC) cortical
+    cultures and human EEG.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: aphutton
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: austinphutton
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of California, San Diego
+        location: La Jolla, CA
+        url: https://cogsci.ucsd.edu/
+        area: Cognitive Science
+        studyType: Ph.D.
+        start_date: 2026
+        end_date: Present
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of California, San Diego
+        location: La Jolla, CA
+        url: https://cogsci.ucsd.edu/
+        area: Cognitive Behavioral Neuroscience
+        studyType: B.S.
+        start_date: 2022
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduated with Honors and Distinction
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Voytek Lab, UC San Diego
+        position: Research Assistant & Data Engineer
+        location: La Jolla, CA
+        url: https://voyteklab.com/
+        start_date: 2024-02
+        end_date: Present
+        summary: Biological Neural Network Projects and Electroencephalography Projects
         highlights:
-          - Relativity
-          - Description 2.
+          - Led project investigating the influence of distinct excitatory-inhibitory cell-type proportions on the development of network dynamics in human induced pluripotent stem cell (hiPSC)-derived cortical cultures.
+          - Computationally modeled network connectivity and spectral features across hiPSC early development by employing graph-theoretical analyses, spectral parameterization, and spike synchrony analyses, to reveal underlying developmental dynamics in a novel system (distinct cell-type proportions with astrocytes).
+          - Developed custom data pipelines for analysis of spike trains recorded from hiPSC neuronal cultures to quantify the oscillatory effects of pharmaceuticals designed to inhibit activity of different cell types (specifically glutamatergic and GABAergic neurons).
+          - Implemented and modified open-source burst detection algorithms to identify time points of network burst activity in hiPSC cultures, guiding further analysis and characterization of nested oscillatory dynamics.
+          - Investigated aperiodic and periodic oscillatory features of EEG recordings from non-verbal autism children receiving FDA-approved oral CBD preparations to identify treatment success and potential biomarkers correlated with symptom severity/reduction.
+          - Utilized a spectral parameterization algorithm (specparam) and linear mixed effects models to parameterize neural power spectra into aperiodic and adjusted-periodic features, and analyzed components of EEG signals across treatment.
+          - Optimized data pipelines with custom Python and MATLAB scripts to ensure accurate and efficient data cleaning, storage, analysis, and visualization of large multimodal datasets.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Neural Crossroads Lab, UC San Diego
+        position: Research Assistant
+        location: La Jolla, CA
+        start_date: 2024-01
+        end_date: 2025-04
+        summary: In vivo electrophysiology
         highlights:
-          - Description 1.
-          - Description 2.
+          - Manufactured in-house head stages for in vivo rat recordings, including assembling head stages and building tungsten tetrodes for recording target brain regions.
+          - Implemented behavioral training regimens to condition rats to novel experimental paradigms.
+          - Received training in animal surgery, including performing craniotomies in preparation for electrode implants.
+          - Facilitated data acquisition for behavioral experiments in rats with multiple subcortical recording sites.
+          - Scored behavioral video data, allowing integration with neural recording data in analysis pipelines.
+          - Supported daily upkeep of on-site vivarium, adhering to stringent IACUC guidelines for animal care and safety.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: STARTneuro Summer Research Training
+        position: Research Trainee
+        location: La Jolla, CA
+        start_date: 2023-07
+        end_date: 2023-09
+        highlights:
+          - Directed a capstone project using voltage-clamp recording on organotypic hippocampal slices from Alzheimer's Disease model mice to examine AMPA/NMDA-mediated responses in the CA1.
+          - Conducted experiments using a variety of biology/neuroscience research methods (intracellular sharp electrode recording and whole-cell patch clamping, extracellular electrophysiology techniques and LFP analysis, immunohistochemistry and microscopy, genotyping, western blots).
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: STARTneuro
+        position: Program Coordinator
+        location: La Jolla, CA
+        start_date: 2026-01
+        end_date: Present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Facilitated communications across multiple student cohorts, university faculty members, and program mentors to organize program events and mentorship pods.
+          - Utilized scheduling platforms and Google Forms surveys to optimize group availability and discussion topic utility for meetings.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Britt's Fermented Foods
+        position: Head of Consumer Relations
+        location: Langley, WA
+        start_date: 2021-01
+        end_date: 2021-12
+        highlights:
+          - Provided timely, professional customer support and analyzed inquiry trends to identify product weaknesses, informing operational changes in production, packaging, and distribution.
+          - Optimized in-house distribution operations by analyzing e-commerce performance data and designing new packing protocols that ensured consistent product quality across a nationwide customer base.
+          - Streamlined the shipping logistics system by implementing dynamic shipping rate algorithms, reducing costs for consumers and minimizing operational expenses.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Ott & Hunter Wines
+        position: Sales and Distribution Lead
+        location: Langley, WA
+        start_date: 2017-09
+        end_date: 2020-12
+        highlights:
+          - Led direct-to-consumer sales by providing knowledgeable customer support, addressing inquiries, and ensuring high-quality customer experiences through clear communication and product expertise.
+          - Managed distribution operations by organizing inventories, coordinating shipments, maintaining accurate records, and communicating promptly with retail partners to support reliable logistics workflows.
+
+      - company: Rancho Valhalla Nursery
+        position: Operations Manager
+        location: El Cajon, CA
+        start_date: 2013-07
+        end_date: 2017-08
+        highlights:
+          - Worked directly with customers to assess landscaping needs and provide clear, professional guidance on design, installation, and maintenance practices.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Excitatory-inhibitory balance drives divergent maturation of power spectra and functional connectivity in developing hiPSC cortical cultures"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - "A. Hutton"
+          - "D. Pré"
+          - "A. T. Wooten"
+          - "A. G. Bang"
+          - "B. Voytek"
+          - "C. Cazares"
+        publisher: "In preparation"
+        date: 2026
+        summary: "In preparation."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Cannabidiol blood metabolite levels after cannabidiol treatment are associated with broadband EEG changes and improvements in visuomotor and non-verbal cognitive abilities in boys with autism requiring higher levels of support"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - "C. Cazares"
+          - "A. Hutton"
+          - "G. Paez"
+          - "et al."
+        publisher: "Translational Psychiatry, 16, 109"
+        date: 2026
+        url: https://doi.org/10.1038/s41398-026-03815-y
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Awards:
+      - title: UCSD CogSci Fellows Post-Baccalaureate Scholar
+        awarder: UC San Diego
+        date: 2025
+
+      - title: UC HSI DDI Fellowship
+        awarder: UC San Diego
+        date: 2025
+
+      - title: Cognitive Science Honors Program Scholar
+        awarder: UC San Diego
+        date: 2024
+
+      - title: STARTneuro NIH BP Endure Scholar
+        awarder: UC San Diego
+        date: 2023
+
+    Presentations:
+      - bullet: "*Developmental trajectory of rhythmic and non-rhythmic spiking in hiPSC-derived cortical tissue* — Society for Neuroscience Annual Conference, Main Poster Session, San Diego, CA (November 2025)."
+      - bullet: "*Excitatory-inhibitory balance shapes divergent maturation of power spectra and network synchrony in developing hiPSC cortical cultures* — Cognitive Science Fellows Symposium, UCSD (November 2025)."
+      - bullet: "*Development of spatiotemporal dynamics of oscillatory activity in hiPSC-derived cortical tissue* — Cognitive Science Department Honors Theses Symposium, UCSD (June 2025)."
+      - bullet: "*Cannabidiol treatment is associated with broadband spectral electrophysiological changes and improved cognition in boys with low-functioning autism spectrum disorder* — Society for Neuroscience Annual Conference, Analytical Tools Poster Session and Early Careers Poster Session, Chicago, IL (October 2024)."
+      - bullet: "*Network burst dynamics in human induced pluripotent stem cells are mediated by oscillation-inducing drugs* — Summer Research Conference, UCSD (August 2024)."
+      - bullet: "*Recording AMPA and NMDA Receptor Mediated Responses in Organotypic Hippocampal Slices* — MINDS Symposium Poster Session, UCSD (August 2023)."
+
+    Teaching:
+      - bullet: "**Fundamentals of EEG Acquisition and Analysis** — Teaching Assistant, STARTneuro Summer Workshop, UCSD (2024)."
+      - bullet: "**Convolutions for Neural Time Series Analysis** — Workshop Instructor, Neural Crossroads Lab, UCSD (2024)."
+      - bullet: "**PSYC 120 – Introductory Psychology** — Teaching Assistant, Grossmont College (2022)."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Applied Methods
+        level: Advanced
+        icon: fa-solid fa-gears
+        keywords: "Multivariate statistical modeling, Time series analysis, Spectral decomposition, Feature engineering, Dimensionality reduction, Clustering, Classification"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python (pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, seaborn, specparam, mne, elephant), Jupyter Notebooks, MATLAB, R Studio, SPSS, Excel"
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Theory & Coursework
+        level: Advanced
+        icon: fa-solid fa-book
+        keywords: "Brain-Computer Interfaces, Neuroscience Research Methods, Neural Data Science, Statistics for Research, Calculus, Linear Algebra, Physiology, Bioethics, Data Science, Data Visualization, Data Structures"
