@@ -1,0 +1,37 @@
+---
+title: "My Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+  fields: [date, title, reading-time, description, categories]
+page-layout: full
+---
+
+### Testing
+
+Check out my posts and follow along with me as I navigate [(*see below*)]{.muted} all things neuroscience, academia, and life!
+<!-- 
+\
+
+\
+
+---
+### Dictionary of Academia-speak
+
+[navigate]{.big} (verb) [næv.ə.ɡeɪt]{.phonetic} 
+: a euphamism for closing your eyes and hoping for the best (*see entry for **blind squirrel***)
+
+[blind squirrel]{.big} (noun) [blaɪnd skwər(ə)l]{.phonetic}
+: a visually impaired rodent, ubiquitous in many continents, that predictably finds occasional success in locating food sources despite their inability to discern what the hell is going on (visually)... often used as a metaphor for modern *Homo sapiens* (*see entry for **luck***)
+
+[leverage]{.big} (verb) [lev-rij]{.phonetic}
+: the action of using a thing. typically leveraged in contexts where there are limited options but you want to sound purposeful and smart
+
+[duck paddle]{.big} (noun+verb) [dʌk pæd.əl]{.phonetic}
+: aka Duck Syndrome. When you work really hard, possibly to the point of meltdown, but outwardly convey calmness or non-chalance. Duck paddling can become socially destructive when weaponized in competitive academic circles (*see entry for **imposter syndrome***)
+
+[imposter syndrome]{.big} (noun) [im-pah-stir sin-drum]{.phonetic}
+: clincally diagnosable disorder, increasingly regarded as an epidemic, wherein the afflicted believe they are inadequate, [unskilled, or generally do not belong in a space that more than likely is super unnatural]{.small} [and probably nobody should belong there and we should all]{.smaller} [visit the mountains and forests and look at clouds and sleep outside more to remember that our biology was largely optimized for acquiring food, eating food, walking/climbing/jumping in nature,]{.smallerer} [and making babies... of course you feel like an imposter you overly-intelligent, lab-coat-wearing, entropy-defying powerpoint-perfectionist of an animal who is an incredibly beautiful and complex anomoly of cosmic expansion with or without the bullet-points adorning your CV... wow that was therapeutic.]{.smallest} -->

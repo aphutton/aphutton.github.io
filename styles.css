@@ -1,0 +1,205 @@
+/* ========================================================================
+   COLORS — change values here, use them anywhere
+   ========================================================================
+   How to use these in a Quarto file:
+     - In CSS:       color: var(--color-teal);
+     - In markdown:  [some words]{style="color: var(--color-teal);"}
+     - In a class:   .my-class { background: var(--gray-100); }
+   ======================================================================== */
+
+:root {
+  /* --- Brand palette (the two colors that define the site's identity) --- */
+  --color-navy:        #1f3a5f;  /* primary — deep academic navy */
+  --color-orange:      #f39c12;  /* accent — warm, scholarly gold */
+
+  /* --- Navy variants — useful for gradients, borders, subtle backgrounds --- */
+  --color-navy-light:  #3d5a80;  /* softer navy, good for secondary text */
+  --color-navy-dark:   #0f1e30;  /* near-black navy, good for titles */
+
+  /* --- Orange variants --- */
+  --color-orange-light: #fbc57a;  /* pale gold, good for highlights/backgrounds */
+  --color-orange-dark:  #b8730a;  /* burnt orange, good for borders/underlines */
+
+  /* --- Optional supporting accents (use sparingly — one highlight per page) --- */
+  --color-teal:        #2a9d8f;  /* cool contrast to the navy/orange */
+  --color-burgundy:    #9b2226;  /* rich, serious emphasis */
+  --color-sage:        #87a878;  /* soft, organic */
+  --color-slate:       #5d6b7a;  /* muted blue-gray */
+
+  /* --- Neutral grayscale (light → dark) --- */
+  --gray-50:   #f8f9fa;   /* page backgrounds, card surfaces */
+  --gray-100:  #e9ecef;   /* hairline dividers, subtle fills */
+  --gray-300:  #ced4da;   /* borders */
+  --gray-500:  #adb5bd;   /* placeholder text */
+  --gray-700:  #495057;   /* secondary body text */
+  --gray-900:  #212529;   /* primary body text */
+
+  /* --- Semantic aliases (these reference the palette above) --- */
+  --navbar-bg:      var(--color-navy);
+  --navbar-text:    #ffffff;
+  --hover-color:    var(--color-orange);
+  --text-primary:   var(--gray-900);
+  --text-muted:     var(--gray-700);
+  --text-subtle:    var(--gray-500);
+}
+
+/* ========================================================================
+   NAVBAR
+   ======================================================================== */
+
+.navbar {
+  background-color: var(--navbar-bg) !important;
+}
+
+/* Nav link text color (Home / Research / Publications / CV) */
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  color: var(--navbar-text) !important;
+  transition: color 0.15s ease-in-out;
+}
+
+/* Hover state for nav links */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-brand:hover {
+  color: var(--hover-color) !important;
+}
+
+/* The GitHub/LinkedIn/Email icons on the right side of the nav */
+.navbar .navbar-nav .nav-link i {
+  color: var(--navbar-text);
+  transition: color 0.15s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-link:hover i {
+  color: var(--hover-color);
+}
+
+/* ========================================================================
+   IN-PAGE LINK HOVERS (body content, publications list, etc.)
+   ======================================================================== */
+
+.content a:hover,
+main a:hover {
+  color: var(--hover-color);
+}
+
+/* Landing page styles are defined inline in index.qmd so they're
+   guaranteed to only apply to the landing page. */
+
+/* ========================================================================
+   TYPOGRAPHY UTILITY CLASSES
+   ========================================================================
+   Use these anywhere in a .qmd file with Quarto's span syntax:
+     [some text]{.accent}
+     [bigger tagline]{.lead}
+     [smaller caption]{.muted}
+   ======================================================================== */
+
+/* Accent color — for highlighting a keyword */
+.accent {
+  color: var(--hover-color);
+  font-weight: 600;
+}
+
+/* Deep navy accent — more academic feel */
+.primary {
+  color: var(--navbar-bg);
+  font-weight: 600;
+}
+
+/* Lead — bigger, looser text for a tagline or intro */
+.lead {
+  font-size: 1.25em;
+  line-height: 1.55;
+  font-weight: 300;
+}
+
+/* Muted — smaller, gray text for secondary info */
+.muted {
+  color: #777;
+  font-size: 0.9em;
+}
+
+/* Big — punchy oversized text */
+.big {
+  font-size: 1.6em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Small-caps — for labels, section headers, or subtle emphasis */
+.smallcaps {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+/* Highlighter — yellow background, like a marker pen */
+.highlight {
+  background: linear-gradient(
+    transparent 60%,
+    rgba(243, 156, 18, 0.35) 60%
+  );
+  padding: 0 0.15em;
+}
+
+/* Underline-accent — colored underline for emphasis without bolding */
+.underline {
+  border-bottom: 2px solid var(--hover-color);
+  padding-bottom: 1px;
+}
+
+/* ========================================================================
+   NEWS FEED — scrollable box with dated entries
+   ========================================================================
+   Use by wrapping news entries in a .news-feed div and each entry in .news-item:
+     ::: {.news-feed}
+     ::: {.news-item}
+     **Apr 2026** — Short update sentence.
+     :::
+     :::
+   ======================================================================== */
+
+.news-feed {
+  max-height: 280px;          /* height of the scrollable box — tweak as needed */
+  overflow-y: auto;           /* vertical scrollbar when content overflows */
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+  padding: 0.5em 1.25em;
+  background: var(--gray-50);
+  margin: 1em 0;
+}
+
+.news-item {
+  padding: 0.75em 0;
+  border-bottom: 1px solid var(--gray-100);
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+/* Make the date (anything **bolded** at the start) pop in navy */
+.news-item strong:first-child {
+  color: var(--color-navy);
+  font-weight: 600;
+  margin-right: 0.35em;
+}
+
+/* Custom scrollbar so it doesn't look like default-browser-ugly */
+.news-feed::-webkit-scrollbar {
+  width: 6px;
+}
+.news-feed::-webkit-scrollbar-track {
+  background: transparent;
+}
+.news-feed::-webkit-scrollbar-thumb {
+  background: var(--gray-300);
+  border-radius: 3px;
+}
+.news-feed::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange);
+}

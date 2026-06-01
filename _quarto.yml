@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Austin Hutton"
+  site-url: "https://aphutton.github.io"
+  description: "Cognitive Science & Computational Neuroscience — UC San Diego"
+  navbar:
+    pinned: true
+    left:
+      - text: about
+        href: about.qmd
+      - text: projects
+        href: projects.qmd
+      - text: publications
+        href: publications.qmd
+      - text: cv
+        href: cv.qmd
+      # - text: blog
+      #   href: blog.qmd
+    # right:
+    #   - icon: github
+    #     href: https://github.com/aphutton
+    #     aria-label: GitHub
+    #   - icon: linkedin
+    #     href: https://linkedin.com/in/austinphutton
+    #     aria-label: LinkedIn
+    #   - icon: envelope
+    #     href: mailto:ahutton@ucsd.edu
+    #     aria-label: Email
+  page-footer:
+    left: "© 2026 Austin Powell Hutton"
+    right: "Built with [Quarto](https://quarto.org)"
+  # announcement: 
+  #   content: "**New** - this is an announcement" 
+  #   position: below-navbar 
+
+
+format:
+  html:
+    lightbox: true
+    theme: flatly
+    css: styles.css
+    toc: false
+    page-layout: article

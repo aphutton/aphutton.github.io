@@ -1,0 +1,22 @@
+---
+title: "Publications"
+---
+
+For a complete and up-to-date list, see my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=LDy6jwQAAAAJ) <!-- replace YOUR_ID_HERE with your Scholar ID -->.
+
+<!-- ## Peer-reviewed -->
+
+**Cazares, C., Hutton, A., Paez, G., et al.** (2026). Cannabidiol blood metabolite levels after cannabidiol treatment are associated with broadband EEG changes and improvements in visuomotor and non-verbal cognitive abilities in boys with autism requiring higher levels of support. *Translational Psychiatry*, 16, 109. [doi:10.1038/s41398-026-03815-y](https://doi.org/10.1038/s41398-026-03815-y)
+
+<!-- ## In preparation
+
+**Hutton, A.**, Pré, D., Wooten, A. T., Bang, A. G., Voytek, B., & Cazares, C. (2026). Excitatory-inhibitory balance drives divergent maturation of power spectra and functional connectivity in developing hiPSC cortical cultures. -->
+
+## Selected presentations
+
+- *Developmental trajectory of rhythmic and non-rhythmic spiking in hiPSC-derived cortical tissue* — Society for Neuroscience Annual Conference, San Diego, CA. November 2025.
+- *Excitatory-inhibitory balance shapes divergent maturation of power spectra and network synchrony in developing hiPSC cortical cultures* — Cognitive Science Fellows Symposium, UCSD. November 2025.
+- *Development of spatiotemporal dynamics of oscillatory activity in hiPSC-derived cortical tissue* — Cognitive Science Department Honors Theses Symposium, UCSD. June 2025.
+- *Cannabidiol treatment is associated with broadband spectral electrophysiological changes and improved cognition in boys with low-functioning autism spectrum disorder* — Society for Neuroscience Annual Conference, Chicago, IL. October 2024.
+- *Network burst dynamics in human induced pluripotent stem cells are mediated by oscillation-inducing drugs* — Summer Research Conference, UCSD. August 2024.
+- *Recording AMPA and NMDA Receptor Mediated Responses in Organotypic Hippocampal Slices* — MINDS Symposium Poster Session, UCSD. August 2023.

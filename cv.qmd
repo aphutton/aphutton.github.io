@@ -1,0 +1,74 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+---
+
+<p class="lead">
+  <a href="assets/cv.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+    <i class="bi bi-file-earmark-pdf"></i> View PDF
+  </a>
+</p>
+
+<!-- ## Education
+
+**Ph.D. in Cognitive Science**, University of California, San Diego — *Starting September 2026*
+
+**B.S. in Cognitive Behavioral Neuroscience**, University of California, San Diego — *June 2025*<br>
+Graduated with Honors and Distinction
+
+## Skills
+
+**Applied** — Multivariate statistical modeling, Signal processing (time series analysis, spectral decomposition, feature engineering), Supervised and unsupervised machine learning (dimensionality reduction, clustering, classification)
+
+**Programming** — Python (pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, seaborn, specparam, mne, elephant), Jupyter, MATLAB, R, SPSS, Excel
+
+**Theory & Coursework** — Brain-Computer Interfaces · Neuroscience Research Methods · Neural Data Science · Statistics for Research · Calculus · Linear Algebra · Physiology · Bioethics · Data Science · Data Visualization · Data Structures
+
+## Research Experience
+
+**Research Assistant & Data Engineer** — *Voytek Lab, UC San Diego* · February 2024 – Present
+
+###### *Biological Neural Network Projects*
+- Led project investigating the influence of distinct excitatory-inhibitory cell-type proportions on the development of network dynamics in human induced pluripotent stem cell (hiPSC)-derived cortical cultures.
+- Computationally modeled network connectivity and spectral features across hiPSC early development by employing graph-theoretical analyses, spectral parameterization, and spike synchrony analyses, to reveal underlying developmental dynamics in a novel system (distinct cell-type proportions with astrocytes).
+- Developed custom data pipelines for analysis of spike trains recorded from hiPSC neuronal cultures to quantify the oscillatory effects of pharmaceuticals designed to inhibit activity of different cell types (specifically glutamatergic and GABAergic neurons).
+- Implemented and modified open-source burst detection algorithms to identify time points of network burst activity in hiPSC cultures, guiding further analysis and characterization of nested oscillatory dynamics.
+
+###### *Clinical EEG Projects*
+- Investigated aperiodic and periodic oscillatory features of EEG recordings from non-verbal autism children receiving FDA-approved oral CBD preparations to identify treatment success and potential biomarkers correlated with symptom severity/reduction.
+- Utilized a spectral parameterization algorithm (specparam) and linear mixed effects models to parameterize neural power spectra into aperiodic and adjusted-periodic features, and analyzed components of EEG signals across treatment.
+- Optimized data pipelines with custom Python and MATLAB scripts to ensure accurate and efficient data cleaning, storage, analysis, and visualization of large multimodal datasets
+
+**Research Assistant** — *Neural Crossroads Lab, UC San Diego* · January 2024 – April 2025
+
+- Manufactured in-house head stages and tungsten tetrodes for in vivo rat recordings.
+- Trained in animal surgery (craniotomies) and behavioral paradigms.
+- Facilitated data acquisition for behavioral experiments with multiple subcortical recording sites.
+
+**Research Trainee** — *STARTneuro Summer Research Training, UCSD* · July 2023 – September 2023
+
+- Directed capstone project using voltage-clamp recording on organotypic hippocampal slices from Alzheimer's model mice.
+- Trained in patch clamp, LFP analysis, immunohistochemistry, genotyping, and western blots.
+
+## Fellowships & Awards
+
+- **UCSD CogSci Fellows Post-Baccalaureate Scholar**, UC San Diego (2025)
+- **UC HSI DDI Fellowship**, UC San Diego (2025–2026)
+- **Cognitive Science Honors Program Scholar**, UC San Diego (2024–2025)
+- **STARTneuro NIH BP Endure Scholar**, UC San Diego (2023–2025)
+
+## Teaching
+
+- *Fundamentals of EEG Acquisition and Analysis* — TA, STARTneuro Summer Workshop, UCSD (2024)
+- *Convolutions for Neural Time Series Analysis* — Workshop Instructor, Neural Crossroads Lab, UCSD (2024)
+- *PSYC 120 – Introductory Psychology* — Teaching Assistant, Grossmont College (2022)
+
+
+## Non-Research Experience
+
+**Program Coordinator** — *STARTneuro, UCSD* · January 2026 – Present<br>
+**Head of Consumer Relations** — *Britt's Fermented Foods, Langley, WA* · 2021<br>
+**Assitant Winemaker / Sales and Distribution Lead** — *Ott & Hunter Wines, Langley, WA* · 2017–2020<br>
+**Operations Manager** — *Rancho Valhalla Nursery, El Cajon, CA* · 2013–2017 -->

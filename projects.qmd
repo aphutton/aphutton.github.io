@@ -1,0 +1,13 @@
+---
+title: "Projects"
+listing:
+  contents: research
+  type: default
+  fields: [image, title, description, date]
+  sort: "date desc"
+  categories: false
+  feed: false
+page-layout: full
+---
+
+Selected research projects, with notebooks and write-ups. Click any entry to dive in.

@@ -1,0 +1,109 @@
+---
+title: "Austin Hutton"
+subtitle: "[Computational Neuroscience · Signal Processing · Statistical Modeling]{.lp-subtitle}"
+pagetitle: "Austin Hutton"
+about:
+  template: trestles
+  image: assets/profile.jpg
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: envelope
+      # text: Email
+      href: mailto:ahutton@ucsd.edu
+    - icon: mortarboard-fill
+      # text: GoogleScholar
+      href: https://scholar.google.com/citations?hl=en&user=LDy6jwQAAAAJ
+    - icon: github
+      # text: GitHub
+      href: https://github.com/aphutton
+    - icon: linkedin
+      # text: LinkedIn
+      href: https://linkedin.com/in/austinphutton
+    # - icon: file-earmark-person
+    #   text: CV
+    #   href: cv.qmd
+    # - icon: activity
+    #   # text: ActionPotenial
+    #   href: mailto:ahutton@ucsd.edu
+    # - icon: spotify
+    #   # text: Spotify
+    #   href: https://open.spotify.com/user/soundconserva?si=7c84280dd0de459b
+---
+
+<!-- “As long as our brain is a mystery, the universe, the reflection of the structure of the brain will also be a mystery.”
+― Santiago Ramón y Cajal 
+
+“The mind was dreaming. The world was its dream.”
+― Jorge Luis Borges 
+
+"What will the creature made all of seadrift do on the dry sand of daylight; what will the mind do, each morning, waking?”
+― Ursula K. Le Guin, The Lathe of Heaven  -->
+
+
+<!-- [...equal parts inspired and bewildered by all that is the [brain]{.primary}.]{.lead} -->
+<!-- This ***neuro**tic* passion has produced many questions and few, virtually zero, answers. -->
+
+<!-- To make peace with this, and hopefully do something cool along the way, I am spending my time in graduate studies trying to probe the ways in which [biological neural networks encode, transform, propagate, and decode information]{.primary}.
+
+This website is where you can follow along.
+
+[*Thanks for being here!*]{.muted .accent} -->
+
+
+<!-- [I'm Austin and this is my site for everything I have going on in research, academia, and coding]{.lead}
+
+- Current research assistant in the Voytek Lab.
+
+- Incoming student in the UCSD Cognitive Science PhD Program.
+
+- Lover of all things brain & electrophysiology. -->
+
+\
+
+#### [Hi, I'm Austin. Welcome to my site for all things neuroscience and coding.]{.smallcaps .primary}
+
+\
+
+<!-- --- -->
+<!-- 
+Recently, I finished my B.S. in Cognitive & Behavioral Neuroscience at the University of California San Diego, where I studied the developmental trajectories of stem cell-derived cortical tissue by characterizing the temporal and spatial patterns of spike activity. This work has led me to a deep fascination with computational approaches to electrophysiology, as well as with in vitro models of the human brain.  -->
+
+Recently, I finished my B.S. in Cognitive & Behavioral Neuroscience at UC San Diego, where I studied network spiking patterns in stem cell-derived cortical tissue. This work inspired my interest in computational approaches to electrophysiological signals, and motivated me to examine how in vitro models of the brain can be leveraged to better understand the basic neural mechanisms that support cognition and behavior.
+
+These days, I am preparing to start a PhD under the mentorship of [Dr. Brad Voytek](https://voyteklab.com/) and hoping to further explore the ways in which biological neural networks encode, transform, and propagate information.
+
+\
+
+[*Thanks for being here, and stay tuned for updates!*]{.smallcaps .primary}
+
+\
+
+\ 
+
+
+#### Recent News
+
+::: {.news-feed}
+
+::: {.news-item}
+**March 2026** — Accepted to UC San Diego's Cognitive Science PhD program. Starting in the fall!
+:::
+
+::: {.news-item}
+**November 2025** — Presentation season!! Gave a research talk at the UCSD CogSci Fellows Symposium and presented my work at the Society for Neuroscience Annual Conference. 
+:::
+
+::: {.news-item}
+**September 2025** — Joined the UCSD Cognitive Science Fellows Program.
+:::
+
+::: {.news-item}
+**July 2025** — Awarded the STARTneuro Postbaccalaureate Fellowship.
+:::
+
+::: {.news-item}
+**June 2025** — GRADUATED!!! Freshly minted degree holder with a B.S. in Cognitive & Behavioral Neuroscience with honors and distinction.
+:::
+
+:::
