@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-04-22">
+<meta name="description" content="Short one-line description of the project — will show up on the Research landing page.">
 
-<title>Austin Hutton</title>
+<title>Placeholder research project – Austin Hutton</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,21 +28,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6033a600180109c3731f6a886c29932c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,8 +75,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -80,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Austin Hutton</span>
     </a>
   </div>
@@ -91,19 +126,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="../../cv.html"> 
 <span class="menu-text">cv</span></a>
   </li>  
 </ul>
@@ -119,98 +154,90 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="assets/profile.jpg" class="about-image
-  round " style="height: 14em; width: 14em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Austin Hutton</h1>
-<p class="subtitle lead"><span class="lp-subtitle">Computational Neuroscience · Signal Processing · Statistical Modeling</span></p>
+<h1 class="title">Placeholder research project</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">hiPSC</div>
+    <div class="quarto-category">spectral analysis</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Short one-line description of the project — will show up on the Research landing page.
+  </div>
 </div>
+
+
 <div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 22, 2026</p>
+    </div>
   </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:ahutton@ucsd.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?hl=en&amp;user=LDy6jwQAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard-fill"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/aphutton" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://linkedin.com/in/austinphutton" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<!-- “As long as our brain is a mystery, the universe, the reflection of the structure of the brain will also be a mystery.”
-― Santiago Ramón y Cajal 
-“The mind was dreaming. The world was its dream.”
-― Jorge Luis Borges 
-"What will the creature made all of seadrift do on the dry sand of daylight; what will the mind do, each morning, waking?”
-― Ursula K. Le Guin, The Lathe of Heaven  -->
-<!-- [...equal parts inspired and bewildered by all that is the [brain]{.primary}.]{.lead} -->
-<!-- This ***neuro**tic* passion has produced many questions and few, virtually zero, answers. -->
-<!-- To make peace with this, and hopefully do something cool along the way, I am spending my time in graduate studies trying to probe the ways in which [biological neural networks encode, transform, propagate, and decode information]{.primary}.
-This website is where you can follow along.
-[*Thanks for being here!*]{.muted .accent} -->
-<!-- [I'm Austin and this is my site for everything I have going on in research, academia, and coding]{.lead}
-- Current research assistant in the Voytek Lab.
-- Incoming student in the UCSD Cognitive Science PhD Program.
-- Lover of all things brain & electrophysiology. -->
-<p><br>
-</p>
-<section id="hi-im-austin.-welcome-to-my-site-for-all-things-neuroscience-and-coding." class="level4">
-<h4 data-anchor-id="hi-im-austin.-welcome-to-my-site-for-all-things-neuroscience-and-coding."><span class="primary"><span class="smallcaps">Hi, I’m Austin. Welcome to my site for all things neuroscience and coding.</span></span></h4>
-<p><br>
-</p>
-<!-- --- -->
-<!-- 
-Recently, I finished my B.S. in Cognitive & Behavioral Neuroscience at the University of California San Diego, where I studied the developmental trajectories of stem cell-derived cortical tissue by characterizing the temporal and spatial patterns of spike activity. This work has led me to a deep fascination with computational approaches to electrophysiology, as well as with in vitro models of the human brain.  -->
-<p>Recently, I finished my B.S. in Cognitive &amp; Behavioral Neuroscience at UC San Diego, where I studied network spiking patterns in stem cell-derived cortical tissue. This work inspired my interest in computational approaches to electrophysiological signals, and motivated me to examine how in vitro models of the brain can be leveraged to better understand the basic neural mechanisms that support cognition and behavior.</p>
-<p>These days, I am preparing to start a PhD under the mentorship of <a href="https://voyteklab.com/">Dr.&nbsp;Brad Voytek</a> and hoping to further explore the ways in which biological neural networks encode, transform, and propagate information.</p>
-<p><br>
-</p>
-<p><span class="primary"><span class="smallcaps"><em>Thanks for being here, and stay tuned for updates!</em></span></span></p>
-<p><br>
-</p>
-<p>&nbsp;</p>
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Replace this file with a real project write-up. This is where you can drop images, text, math, and — most importantly — embedded Jupyter notebook output.</p>
 </section>
-<section id="recent-news" class="level4">
-<h4 data-anchor-id="recent-news">Recent News</h4>
-<div class="news-feed">
-<div class="news-item">
-<p><strong>March 2026</strong> — Accepted to UC San Diego’s Cognitive Science PhD program. Starting in the fall!</p>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<p>Write a short methods section here. You can use <strong>Markdown</strong> freely, including math:</p>
+<p><span class="math display">\[
+P(f) = \frac{1}{f^{\chi}}
+\]</span></p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Insert your main figure(s):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figure.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Main result figure caption."><img src="figure.png" class="img-fluid figure-img" alt="Main result figure caption."></a></p>
+<figcaption>Main result figure caption.</figcaption>
+</figure>
 </div>
-<div class="news-item">
-<p><strong>November 2025</strong> — Presentation season!! Gave a research talk at the UCSD CogSci Fellows Symposium and presented my work at the Society for Neuroscience Annual Conference.</p>
-</div>
-<div class="news-item">
-<p><strong>September 2025</strong> — Joined the UCSD Cognitive Science Fellows Program.</p>
-</div>
-<div class="news-item">
-<p><strong>July 2025</strong> — Awarded the STARTneuro Postbaccalaureate Fellowship.</p>
-</div>
-<div class="news-item">
-<p><strong>June 2025</strong> — GRADUATED!!! Freshly minted degree holder with a B.S. in Cognitive &amp; Behavioral Neuroscience with honors and distinction.</p>
-</div>
-</div>
+</section>
+<section id="code-notebook" class="level2">
+<h2 class="anchored" data-anchor-id="code-notebook">Code &amp; Notebook</h2>
+<p>For the full analysis notebook, <a href="https://github.com/aphutton/project-repo">view on GitHub</a> or copy an <code>.ipynb</code> directly into this folder and reference it from the listing.</p>
+</section>
+<section id="tip-replace-this-page-with-a-notebook" class="level2">
+<h2 class="anchored" data-anchor-id="tip-replace-this-page-with-a-notebook">Tip: replace this page with a notebook</h2>
+<p>Delete <code>index.qmd</code> and drop a Jupyter notebook named <code>index.ipynb</code> into this folder. Quarto will render the notebook directly. Example YAML to put at the top of the notebook (first cell, raw):</p>
+<pre><code>---
+title: "My project"
+description: "Short description"
+date: "2026-04-22"
+image: figure.png
+---</code></pre>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -616,6 +643,38 @@ Recently, I finished my B.S. in Cognitive & Behavioral Neuroscience at the Unive
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

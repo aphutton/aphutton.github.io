@@ -1,0 +1,300 @@
+/* ========================================================================
+   COLORS — change values here, use them anywhere
+   ========================================================================
+   How to use these in a Quarto file:
+     - In CSS:       color: var(--color-teal);
+     - In markdown:  [some words]{style="color: var(--color-teal);"}
+     - In a class:   .my-class { background: var(--gray-100); }
+   ======================================================================== */
+
+:root {
+  /* --- Brand palette (the two colors that define the site's identity) --- */
+  --color-navy:        #71bac0;  /* primary — deep academic navy */
+  --color-orange:      #fdca77;  /* accent — warm, scholarly gold */
+  --background-color:  #ffffff;
+  --text-color:        #204b47;
+  --link-color:        #24829e;
+
+
+  /* --- Navy variants — useful for gradients, borders, subtle backgrounds --- */
+  --color-navy-light:  #3d5a80;  /* softer navy, good for secondary text */
+  --color-navy-dark:   #0f1e30;  /* near-black navy, good for titles */
+
+  /* --- Orange variants --- */
+  --color-orange-light: #fbc57a;  /* pale gold, good for highlights/backgrounds */
+  --color-orange-dark:  #b8730a;  /* burnt orange, good for borders/underlines */
+
+  /* --- Optional supporting accents (use sparingly — one highlight per page) --- */
+  --color-teal:        #2a9d8f;  /* cool contrast to the navy/orange */
+  --color-burgundy:    #9b2226;  /* rich, serious emphasis */
+  --color-sage:        #87a878;  /* soft, organic */
+  --color-slate:       #5d6b7a;  /* muted blue-gray */
+
+  /* --- Neutral grayscale (light → dark) --- */
+  --gray-50:   #f8f9fa;   /* page backgrounds, card surfaces */
+  --gray-100:  #e9ecef;   /* hairline dividers, subtle fills */
+  --gray-300:  #ced4da;   /* borders */
+  --gray-500:  #adb5bd;   /* placeholder text */
+  --gray-700:  #495057;   /* secondary body text */
+  --gray-900:  #212529;   /* primary body text */
+
+  /* --- Semantic aliases (these reference the palette above) --- */
+  --navbar-bg:      var(--color-navy);
+  --navbar-text:    var(--background-color);
+  --hover-color:    var(--color-orange);
+  --text-primary:   var(--text-color);
+  --text-muted:     var(--gray-700);
+  --text-subtle:    var(--gray-500);
+}
+
+/* ========================================================================
+   BACKGROUND
+   ======================================================================== */
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* ========================================================================
+   NAVBAR
+   ======================================================================== */
+
+.navbar {
+  background-color: var(--navbar-bg) !important;
+}
+
+/* Nav link text color (Home / Research / Publications / CV) */
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  color: var(--navbar-text) !important;
+  transition: color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+/* Hover state for nav links */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-brand:hover {
+  color: var(--hover-color) !important;
+  transform: translateY(-2px);
+}
+
+/* The GitHub/LinkedIn/Email icons on the right side of the nav */
+.navbar .navbar-nav .nav-link i {
+  color: var(--navbar-text);
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-link:hover i {
+  color: var(--hover-color);
+}
+
+/* ========================================================================
+   IN-PAGE LINK HOVERS (body content, publications list, etc.)
+   ======================================================================== */
+
+.content a,
+main a {
+  color: var(--link-color);   /* or any hex — this is the base link color */
+  text-decoration: none;
+  transition: color 0.05s ease-in-out;
+}
+
+.content a:hover,
+main a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+/* Landing page styles are defined inline in index.qmd so they're
+   guaranteed to only apply to the landing page. */
+
+/* ========================================================================
+   TYPOGRAPHY UTILITY CLASSES
+   ========================================================================
+   Use these anywhere in a .qmd file with Quarto's span syntax:
+     [some text]{.accent}
+     [bigger tagline]{.lead}
+     [smaller caption]{.muted}
+   ======================================================================== */
+
+/* Accent color — for highlighting a keyword */
+.accent {
+  color: var(--hover-color);
+  font-weight: 600;
+}
+
+/* Deep navy accent — more academic feel */
+.primary {
+  color: var(--navbar-bg);
+  font-weight: 600;
+}
+
+/* Lead — bigger, looser text for a tagline or intro */
+.lead {
+  font-size: 1.2em;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+/* Muted — smaller, gray text for secondary info */
+.muted {
+  color: var(--gray-500);
+  font-size: 0.7em;
+}
+
+/* Muted — smaller, gray text for secondary info */
+.phonetic {
+  color: var(--gray-500);
+  font-size: 0.9em;
+  font-weight: 450;
+}
+
+/* Big — punchy oversized text */
+.big {
+  font-size: 1.3em;
+  font-weight: 600;
+  /* line-height: 2.55; */
+  letter-spacing: -0.01em;
+}
+
+/* Big — punchy oversized text */
+.small {
+  font-size: .9em;
+  font-weight: 400;
+}
+
+/* Big — punchy oversized text */
+.smaller {
+  font-size: .75em;
+  font-weight: 400;
+}
+
+/* Big — punchy oversized text */
+.smallerer {
+  font-size: .6em;
+  font-weight: 400;
+}
+
+/* Big — punchy oversized text */
+.smallest {
+  font-size: .45em;
+  font-weight: 400;
+}
+
+/* Small-caps — for labels, section headers, or subtle emphasis */
+.smallcaps {
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+/* lp-subtitle */
+.lp-subtitle {
+  font-size: .6em;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+/* Highlighter — yellow background, like a marker pen */
+.highlight {
+  background: linear-gradient(
+    transparent 60%,
+    rgba(243, 156, 18, 0.35) 60%
+  );
+  padding: 0 0.15em;
+}
+
+/* Underline-accent — colored underline for emphasis without bolding */
+.underline {
+  border-bottom: 2px solid var(--hover-color);
+  padding-bottom: 1px;
+}
+
+/* ========================================================================
+   NEWS FEED — scrollable box with dated entries
+   ========================================================================
+   Use by wrapping news entries in a .news-feed div and each entry in .news-item:
+     ::: {.news-feed}
+     ::: {.news-item}
+     **Apr 2026** — Short update sentence.
+     :::
+     :::
+   ======================================================================== */
+
+.news-feed {
+  max-height: 220px;          /* height of the scrollable box — tweak as needed */
+  overflow-y: auto;           /* vertical scrollbar when content overflows */
+  border: 2px solid var(--gray-300);
+  border-radius: 24px;
+  padding: 0.5em 1.25em;
+  background: var(--gray-50);
+  margin: .5em 0;
+}
+
+.news-item {
+  padding: 0.3em 0;
+  border-bottom: 1px solid var(--gray-300);
+  font-size: 0.75em;
+  line-height: 1.0;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+/* Make the date (anything **bolded** at the start) pop in navy */
+.news-item strong:first-child {
+  color: var(--color-navy);
+  font-weight: 600;
+  margin-right: 0.05em;
+}
+
+/* Custom scrollbar so it doesn't look like default-browser-ugly */
+.news-feed::-webkit-scrollbar {
+  width: 10px;
+}
+.news-feed::-webkit-scrollbar-track {
+  background: transparent;
+}
+.news-feed::-webkit-scrollbar-thumb {
+  background: var(--color-orange);
+  border-radius: 4px;
+}
+.news-feed::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange);
+}
+
+
+
+/* ========================================================================
+   Socials icons links
+   ======================================================================== */
+
+/* Strip the button styling off the about-template social links */
+.about-link {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin-right: 0.8em;
+  transition: transform 0.5s ease;
+}
+
+/* Size and base color of the icon itself */
+.about-link i,
+.about-link .bi {
+  font-size: 1.8em !important;
+  color: var(--color-navy) !important;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Hover: recolor the icon and lift the link */
+.about-link:hover {
+  transform: translateY(-3px);
+}
+.about-link:hover i,
+.about-link:hover .bi {
+  color: var(--hover-color) !important;
+}

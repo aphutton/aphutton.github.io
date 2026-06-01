@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Austin Hutton</title>
+<link>https://aphutton.github.io/blog.html</link>
+<atom:link href="https://aphutton.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Cognitive Science &amp; Computational Neuroscience — UC San Diego</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Wed, 29 Apr 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Hello world</title>
+  <dc:creator>Austin Hutton</dc:creator>
+  <link>https://aphutton.github.io/posts/20260506-hello-world/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><br>
+</p>
+<p>This is a test post.</p>
+<p>…it worked :)</p>
+
+
+
+ ]]></description>
+  <guid>https://aphutton.github.io/posts/20260506-hello-world/</guid>
+  <pubDate>Wed, 29 Apr 2026 07:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

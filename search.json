@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Testing\nCheck out my posts and follow along with me as I navigate (see below) all things neuroscience, academia, and life! \n\n\n\n\n\n\n\n\n\n\nHello world\n\n\nFirst post.\n\n\n\n\n\nApr 29, 2026\n\n1 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "About Me\n\nI’m an incoming PhD student in Cognitive Science at UC San Diego, interested in the intersection of computation, neural dynamics, and intelligent systems. I was extremely lucky to get work on some amazing projects during my undergrad and postbacc years, and have become obsessed with what kinds of questions we can ask, and the insights we can generate, about the brain using stem-cell derived neural tissues (2D hiPSC and organoid cultures). In the past, I have used LFP and spike data to study oscillatory and aperiodic neural activity in the context of typical and atypical neurodevelopment. Going forward, I hope to explore the fundamental properties of biological neural networks to better understand how information is encoded and respresented in living systems. How does meaningful neural computation emerge? How do these compuations dynamically change over different timescales? How is information structured in noisy biological systems? How does the architecture of connectivity support network function? How is that function shaped by variance within and across cell types?… These are a few of the big questions that keep me up at night, and I am excited to devote some time to studying them.\nIn addition to my scientific aims, I hope to use my PhD time to create and support communities of students and researchers, specifically with the goal of lowering the barrier of entry for folks interested in pursuing a career in science. I believe that carving out space for different perspectives and skills is critical to advancing science and society as whole. I believe that community, inclusivity, and compassion are worth every effort to create and maintain.\n\n\n\n\nWhen I’m not working on code or catching up on literature, I enjoy hiking and backpacking (the picture above is from a dayhike to the Enchantments in Washington State), playing ultimate frisbee or pickleball, jamming on piano, drinking a super hoppy IPA over a game of pool, and playing board games of all flavors. \n\nGet in touch\nPlease reach out if you have any questions about my research or would like to chat about neuroscience. Collaboration is a foundational part of what I do, so if you have a project you think would be interesting to work on together, please do no hesitate to get in touch. The fastest way to reach me is by email. You can also find me on GitHub and LinkedIn.\nCheers!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Austin Hutton",
+    "section": "",
+    "text": "Hi, I’m Austin. Welcome to my site for all things neuroscience and coding.\n\n\n\n\nRecently, I finished my B.S. in Cognitive & Behavioral Neuroscience at UC San Diego, where I studied network spiking patterns in stem cell-derived cortical tissue. This work inspired my interest in computational approaches to electrophysiological signals, and motivated me to examine how in vitro models of the brain can be leveraged to better understand the basic neural mechanisms that support cognition and behavior.\nThese days, I am preparing to start a PhD under the mentorship of Dr. Brad Voytek and hoping to further explore the ways in which biological neural networks encode, transform, and propagate information.\n\n\nThanks for being here, and stay tuned for updates!\n\n\n \n\n\nRecent News\n\n\nMarch 2026 — Accepted to UC San Diego’s Cognitive Science PhD program. Starting in the fall!\n\n\nNovember 2025 — Presentation season!! Gave a research talk at the UCSD CogSci Fellows Symposium and presented my work at the Society for Neuroscience Annual Conference.\n\n\nSeptember 2025 — Joined the UCSD Cognitive Science Fellows Program.\n\n\nJuly 2025 — Awarded the STARTneuro Postbaccalaureate Fellowship.\n\n\nJune 2025 — GRADUATED!!! Freshly minted degree holder with a B.S. in Cognitive & Behavioral Neuroscience with honors and distinction."
+  },
+  {
+    "objectID": "posts/20260506-hello-world/index.html",
+    "href": "posts/20260506-hello-world/index.html",
+    "title": "Hello world",
+    "section": "",
+    "text": "This is a test post.\n…it worked :)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Selected research projects, with notebooks and write-ups. Click any entry to dive in.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "For a complete and up-to-date list, see my Google Scholar profile .\nCazares, C., Hutton, A., Paez, G., et al. (2026). Cannabidiol blood metabolite levels after cannabidiol treatment are associated with broadband EEG changes and improvements in visuomotor and non-verbal cognitive abilities in boys with autism requiring higher levels of support. Translational Psychiatry, 16, 109. doi:10.1038/s41398-026-03815-y"
+  },
+  {
+    "objectID": "publications.html#selected-presentations",
+    "href": "publications.html#selected-presentations",
+    "title": "Publications",
+    "section": "Selected presentations",
+    "text": "Selected presentations\n\nDevelopmental trajectory of rhythmic and non-rhythmic spiking in hiPSC-derived cortical tissue — Society for Neuroscience Annual Conference, San Diego, CA. November 2025.\nExcitatory-inhibitory balance shapes divergent maturation of power spectra and network synchrony in developing hiPSC cortical cultures — Cognitive Science Fellows Symposium, UCSD. November 2025.\nDevelopment of spatiotemporal dynamics of oscillatory activity in hiPSC-derived cortical tissue — Cognitive Science Department Honors Theses Symposium, UCSD. June 2025.\nCannabidiol treatment is associated with broadband spectral electrophysiological changes and improved cognition in boys with low-functioning autism spectrum disorder — Society for Neuroscience Annual Conference, Chicago, IL. October 2024.\nNetwork burst dynamics in human induced pluripotent stem cells are mediated by oscillation-inducing drugs — Summer Research Conference, UCSD. August 2024.\nRecording AMPA and NMDA Receptor Mediated Responses in Organotypic Hippocampal Slices — MINDS Symposium Poster Session, UCSD. August 2023."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "View PDF"
+  }
+]
