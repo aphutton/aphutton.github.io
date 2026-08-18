@@ -69,9 +69,11 @@ This website is where you can follow along.
 <!-- 
 Recently, I finished my B.S. in Cognitive & Behavioral Neuroscience at the University of California San Diego, where I studied the developmental trajectories of stem cell-derived cortical tissue by characterizing the temporal and spatial patterns of spike activity. This work has led me to a deep fascination with computational approaches to electrophysiology, as well as with in vitro models of the human brain.  -->
 
-Recently, I finished my B.S. in Cognitive & Behavioral Neuroscience at UC San Diego, where I studied network spiking patterns in stem cell-derived cortical tissue. This work inspired my interest in computational approaches to electrophysiological signals, and motivated me to examine how in vitro models of the brain can be leveraged to better understand the basic neural mechanisms that support cognition and behavior.
+I am a first-year PhD student in the Cognitive Science Department at UC San Diego interested neural dynamics and stem cell-derived models of the human brain (brains in a dish!). Under the mentorship of [Dr. Brad Voytek](https://voyteklab.com/), I hope to further explore the ways in which biological neural networks encode, transform, and propagate information across spatial and temporal scales.  
 
-These days, I am preparing to start a PhD under the mentorship of [Dr. Brad Voytek](https://voyteklab.com/) and hoping to further explore the ways in which biological neural networks encode, transform, and propagate information.
+<!-- Recently, I finished my B.S. in Cognitive & Behavioral Neuroscience at UC San Diego, where I studied network spiking patterns in stem cell-derived cortical tissue. This work inspired my interest in computational approaches to electrophysiological signals, and motivated me to examine how in vitro models of the brain can be leveraged to better understand the basic neural mechanisms that support cognition and behavior.
+
+These days, I am preparing to start a PhD under the mentorship of [Dr. Brad Voytek](https://voyteklab.com/) and hoping to further explore the ways in which biological neural networks encode, transform, and propagate information. -->
 
 \
 
@@ -79,28 +81,52 @@ These days, I am preparing to start a PhD under the mentorship of [Dr. Brad Voyt
 
 \
 
-\ 
-
 
 #### Recent News
 
 ::: {.news-feed}
 
 ::: {.news-item}
+**August 2026** — Working through the FREEMIND computational methods bootcamp... Looking forward to applying these approaches to a research project with the incredibly massive AllOfUs data set.
+:::
+
+
+::: {.news-item}
+**July 2026** — Just wrapped up NeuroMatch Academy's 3-week intensive Computational Neuroscience course. What a great program and resource to researchers in this field! 
+
+Had a blast working on a cool ECoG neural-decoding project trying to compare how a supervised ML classification algorithm performance compared to human percetpual accuracy on an face recognition task with graded degrees of stimulus distortion. Thanks NMA!
+:::
+
+
+::: {.news-item}
+**May 2026** — Gearing up for the PhD long haul by staying sharp with a few computational and machine learning/AI programs. I will be joining:
+
+* NeuroMatch Academy's Computational Neuroscience program in July
+* the FREEMIND (Focused Research Education and Experience using Multimodal and Interdisciplinary NIH Datasets) Program starting in August
+
+...Looking forward to sharpening some tools in the toolkit.
+:::
+
+
+::: {.news-item}
 **March 2026** — Accepted to UC San Diego's Cognitive Science PhD program. Starting in the fall!
 :::
+
 
 ::: {.news-item}
 **November 2025** — Presentation season!! Gave a research talk at the UCSD CogSci Fellows Symposium and presented my work at the Society for Neuroscience Annual Conference. 
 :::
 
+
 ::: {.news-item}
 **September 2025** — Joined the UCSD Cognitive Science Fellows Program.
 :::
 
+
 ::: {.news-item}
 **July 2025** — Awarded the STARTneuro Postbaccalaureate Fellowship.
 :::
+
 
 ::: {.news-item}
 **June 2025** — GRADUATED!!! Freshly minted degree holder with a B.S. in Cognitive & Behavioral Neuroscience with honors and distinction.

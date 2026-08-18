@@ -10,9 +10,10 @@ toc-location: right
 
 # About Me
 <!-- ## Where I'm at now -->
-
+#### RESEARCH
 I'm an incoming PhD student in Cognitive Science at UC San Diego, interested in the intersection of computation, neural dynamics, and intelligent systems. I was extremely lucky to get work on some amazing projects during my undergrad and postbacc years, and have become obsessed with what kinds of questions we can ask, and the insights we can generate, about the brain using stem-cell derived neural tissues (2D hiPSC and organoid cultures). In the past, I have used LFP and spike data to study oscillatory and aperiodic neural activity in the context of typical and atypical neurodevelopment. Going forward, I hope to explore the fundamental properties of biological neural networks to better understand how information is encoded and respresented in living systems. How does meaningful neural computation emerge? How do these compuations dynamically change over different timescales? How is information structured in noisy biological systems? How does the architecture of connectivity support network function? How is that function shaped by variance within and across cell types?... These are a few of the big questions that keep me up at night, and I am excited to devote some time to studying them.
 
+#### COMMUNITY
 In addition to my scientific aims, I hope to use my PhD time to create and support communities of students and researchers, specifically with the goal of lowering the barrier of entry for folks interested in pursuing a career in science. I believe that carving out space for different perspectives and skills is critical to advancing science and society as whole. I believe that community, inclusivity, and compassion are worth every effort to create and maintain.
 
 <!-- ## Where I came from
@@ -23,9 +24,13 @@ I grew up in East County San Diego, and lived a couple different lives before re
 <!-- After my horticultural endeavours I began a four-year apprenticeship making wine on and island in Western Washington. I did a little bit of everything--- driving semitrucks across the state to pick up grapes, running fermentations, barreling, selling, promoting, and yes, drinking, wine. As romantic as it might sound, 90% of winemaking is janitorial work, which means I became an expert in scrubbing and sanitizing equipment (eg. hoses, funnels, carboys, barrels, tanks, bins, bungs, presses, etc.). This work was also deeply satisfying, and eventually led to a short position with a fermented pickle company (turns out every fermentation business involves copious amounts of janitorial work). Eventually Covid happened and with the extra downtime to introspect, while eating pickles and drinking wine, I set my heart on returning to school to pursue neuroscience research... Despite the lack of acidic crunchy snacks and tannic beverages, it's been the best decision I've ever made. -->
 
 <!-- ## Outside of the lab -->
-
+#### PLAY
 When I'm not working on code or catching up on literature, I enjoy hiking and backpacking (the picture above is from a dayhike to the Enchantments in Washington State), playing ultimate frisbee or pickleball, jamming on piano, drinking a super hoppy IPA over a game of pool, and playing board games of all flavors.
 <!-- My friends make fun of me for always showing up to a gathering with a boardgame (or ten), and my dentist thinks I do a good job of flossing (humble brag). I think about getting a dog a lot, but it's kind of like wanting to get a boat... it's way easier to have a friend with a boat. For now at least. -->
+
+\
+
+\
 
 ### Get in touch
 
